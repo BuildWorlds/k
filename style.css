@@ -1,0 +1,77 @@
+* {
+    cursor: default;
+    text-shadow: 1px 1px 1px black;
+    position: relative;
+}
+
+body {
+    background-color: #2f3136;
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.topnav {
+   
+    margin-block: 0px 0px;
+    margin: 6px;
+    padding: 6px;
+    background-color: black;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    inset-inline: auto;
+}
+
+.topnav a:hover {
+    color: chocolate;
+}
+
+.topnav a.active {
+    color: black;
+    background-color: chocolate;
+    overflow: hidden;
+}
+
+
+
+ footer {
+    background-color: #8BC34A;
+    
+    width: 99%;
+    }
+
+ footer h2 {
+     color: white;
+ }
+
+ footer p {
+     color: wheat;
+ }
+
+ footer a {
+     color: brown;
+     text-decoration: none;
+ }
+
+ footer .edit {
+     background-color: none;
+     width: 99%;
+ }
+
+.world_ShowOff img {
+    width: 20%;
+    border: 5px double black;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+    .world_ShowOff img:hover {
+        width: 20%;
+        border: 5px solid black;
+        border-radius: 10px;
+        opacity: 100%;
+    }
